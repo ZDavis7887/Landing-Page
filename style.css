@@ -2,6 +2,17 @@
     font-family: roboto;
 }
 
+.card-section{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards{
+     display:flex;
+}
+
 #top, .hero, .footer {
     display:flex;
     background:#1f2937;
@@ -42,15 +53,29 @@ margin:0px;
 
 }
 
+.card-section {
+    background: #fff;
+}
+
 .container-items{
     background:#1f2937;
     width:100%;
     margin:auto;
 }
 
-#top, .hero {
-    width:85%;
+#top, .hero, .card-section {
+    padding: 0 8%;
     margin:auto;
+}
+
+.hero{
+    margin: 50px 0 50px;
+}
+
+img.ketchup {
+    background: #3882f6;
+    padding: 2px;
+    margin: 3%;
 }
 
 .main-hero-text {
@@ -62,6 +87,7 @@ font-weight:900;
 .left-side {
     display:flex;
     flex-direction: column;
+
 }
 
 .right-side {
@@ -85,4 +111,18 @@ font-size:24px;
 font-size:18px;
 color:#e5e7eb
 
+}
+
+.random {
+ font-size:  36px;
+ font-weight:bolder;
+color:#1f2937;
+
+}
+
+.card {
+    display: flex;
+    font-size: 13px;
+    margin: 5px;
+    border: none !important;
 }
