@@ -1,2 +1,2 @@
 # Landing-Page
-Odin Project porject
+Odin Project project
